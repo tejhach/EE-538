@@ -59,6 +59,14 @@ std::string CPPLib::PrintIntro(const std::string &firstName, const std::string &
 std::vector<int> CPPLib::Flatten3DVector(const std::vector< std::vector< std::vector<int> > > &input){
     // Please fill up this function.
     std::vector<int> res;
+
+    for (const auto &matrix : input) {
+        for (const auto &row : matrix) {
+            for (const auto &element : row) {
+                res.push_back(element);
+            }
+        }
+    }
     return res;
 }
 
