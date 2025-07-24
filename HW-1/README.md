@@ -13,9 +13,9 @@
 
 Create an account on GitHub and Stack Overflow and paste the link to your profile.
 
-GitHub profile link:
+GitHub profile link: https://github.com/tejhach
 
-Stack Overflow profile link:
+Stack Overflow profile link: https://stackoverflow.com/users/31078011/tejas-harishchandra-acharya
 
 ## Question 2 (20 Points. Medium)
 
