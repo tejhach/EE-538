@@ -4,6 +4,8 @@
 #include <map>
 #include <string>
 #include <vector>
+#include <cstdlib>
+#include <ctime>
 
 /**
  *  Example class used for GTest demo
@@ -13,6 +15,9 @@ class CPPLib {
   std::string PrintHelloWorld();
 
   // NOTE: write your own function declaration q2 here
+
+
+  std::string RandomCase(const std::string &input);
 
   // Print your self-introduction
   std::string PrintIntro();

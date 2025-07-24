@@ -5,6 +5,30 @@ std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
 
 // NOTE: write your own function declaration q2 here
 
+
+std::string CPPLib::RandomCase(const std::string &input) {
+    std::string res;
+    if (input.empty()) {
+        return res;
+    }
+    else {
+        std::srand(std::time(nullptr));
+        int random_number;
+
+        for (const auto &i : input) {
+            random_number = std::rand();
+            if ((random_number % 2) == 0){
+                res += std::tolower(static_cast<unsigned char>(i));
+            }
+            else {
+                res += std::toupper(static_cast<unsigned char>(i));
+            }
+        }
+
+        return res;
+    }
+}
+
 // Question 5 Print your self-introduction
 std::string CPPLib::PrintIntro() {
     // Please fill up this function.
