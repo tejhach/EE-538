@@ -21,7 +21,7 @@ class CPPLib {
   std::string RandomCase(const std::string &input);
 
   // Print your self-introduction
-  std::string PrintIntro();
+  std::string PrintIntro(const std::string &firstName, const std::string &lastName, const std::string &exp);
   
   // q6
   std::vector<int> Flatten3DVector(const std::vector< std::vector< std::vector<int> > > &input);

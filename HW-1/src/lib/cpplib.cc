@@ -50,9 +50,9 @@ std::string CPPLib::RandomCase(const std::string &input) {
 }
 
 // Question 5 Print your self-introduction
-std::string CPPLib::PrintIntro() {
+std::string CPPLib::PrintIntro(const std::string &firstName, const std::string &lastName, const std::string &exp) {
     // Please fill up this function.
-    return ""; 
+    return "Hi, my name is \"" + firstName + " " + lastName + ", and my programming experiences are: " + exp + ".\"";
 }
 
 // Question 6
