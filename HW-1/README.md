@@ -105,7 +105,7 @@ Write a simple function ```std::string CPPLib::PrintIntro()``` in [cpplib.cc](sr
 Please create your test cases and run the following command to verify the functionality of your program.
 
 ```bash
-bazel test tests:q5_student_test
+    bazel test tests:q5_student_test
 ```
 
 ## Question 6 (25 Points. Medium)

@@ -6,6 +6,7 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <algorithm>
 
 /**
  *  Example class used for GTest demo
@@ -15,7 +16,7 @@ class CPPLib {
   std::string PrintHelloWorld();
 
   // NOTE: write your own function declaration q2 here
-
+  double FindMedian(std::vector<int> input);
 
   std::string RandomCase(const std::string &input);
 
